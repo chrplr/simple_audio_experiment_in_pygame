@@ -1,0 +1,163 @@
+#
+# Started at Fri Jan 31 15:16:06 2014
+# suj01_run01
+2	1 1 6 1 bir6r6.wav Bird Bird 0
+
+#
+# Started at Fri Jan 31 15:23:50 2014
+# suj01_run01
+3	1 1 6 1 bir6r6.wav Bird Bird 0
+
+#
+# Started at Fri Jan 31 15:36:33 2014
+# suj01_run01
+3	1 1 6 1 bir6r6.wav Bird Bird 0
+
+#
+# Started at Fri Jan 31 15:38:40 2014
+# suj01_run01
+3	1 1 6 1 bir6r6.wav Bird Bird 0
+
+10706	1 1 6 2 ma+2r6.wav Monkey Monkey P
+
+#
+# Started at Fri Jan 31 15:46:17 2014
+# suj01_run01
+6	['1', '1', '6', '1', 'bir6r6.wav', 'Bird', 'Bird', '0']
+10661	['1', '1', '6', '2', 'ma+2r6.wav', 'Monkey', 'Monkey', 'P']
+#
+# Started at Fri Jan 31 15:49:47 2014
+# suj01_run01
+2	['1', '1', '6', '1', 'bir6r6.wav', 'Bird', 'Bird', '0']
+10555	['1', '1', '6', '2', 'ma+2r6.wav', 'Monkey', 'Monkey', 'P']
+#
+# Started at Fri Jan 31 15:51:59 2014
+# suj01_run01
+2	['1', '1', '6', '1', 'bir6r6.wav', 'Bird', 'Bird', '0']
+#
+# Started at Fri Jan 31 16:12:15 2014
+# suj01_run01
+#
+# Started at Fri Jan 31 16:12:45 2014
+# suj01_run01
+#
+# Started at Fri Jan 31 16:13:23 2014
+# suj01_run01
+3	['1', '1', '6', '1', 'bir6r6.wav', 'Bird', 'Bird', '0']
+10655	['1', '1', '6', '2', 'ma+2r6.wav', 'Monkey', 'Monkey', 'P']
+#
+# Started at Fri Jan 31 16:33:49 2014
+# suj01_run01
+2	['1', '1', '6', '1', 'bir6r6.wav', 'Bird', 'Bird', '0']
+10708	['1', '1', '6', '2', 'ma+2r6.wav', 'Monkey', 'Monkey', 'P']
+#
+# Started at Fri Jan 31 16:35:13 2014
+# suj01_run01
+3	['1', '1', '6', '1', 'bir6r6.wav', 'Bird', 'Bird', '0']
+10658	['1', '1', '6', '2', 'ma+2r6.wav', 'Monkey', 'Monkey', 'P']
+20461	['1', '1', '6', '3', 'fre6r6.wav', 'French', 'French', '0']
+#
+# Started at Fri Jan 31 16:37:02 2014
+# suj01_run01
+#
+# Started at Fri Jan 31 16:39:38 2014
+# suj01_run01
+2	['1', '1', '6', '1', 'bir6r6.wav', 'Bird', 'Bird', '0']
+10607	['1', '1', '6', '2', 'ma+2r6.wav', 'Monkey', 'Monkey', 'P']
+20312	['1', '1', '6', '3', 'fre6r6.wav', 'French', 'French', '0']
+#
+# Started at Fri Jan 31 18:29:46 2014
+# sub01_1
+#
+# Started at Fri Jan 31 18:31:01 2014
+# sub01_1
+#
+# Started at Fri Jan 31 18:31:21 2014
+# sub01_1
+#
+# Started at Fri Jan 31 18:32:25 2014
+# sub01_1
+#
+# Started at Fri Jan 31 18:32:46 2014
+# sub01_1
+#
+# Started at Fri Jan 31 18:33:17 2014
+# sub01_1
+#
+# Started at Fri Jan 31 18:34:38 2014
+# sub01_1
+#
+# Started at Fri Jan 31 18:35:18 2014
+# sub01_1
+#
+# Started at Fri Jan 31 18:36:22 2014
+# sub01_1
+#
+# Started at Fri Jan 31 18:36:50 2014
+# sub01_1
+#
+# Started at Fri Jan 31 18:37:10 2014
+# sub01_1
+#
+# Started at Fri Jan 31 18:37:47 2014
+# sub01_1
+#
+# Started at Fri Jan 31 18:38:15 2014
+# sub01_1
+#
+# Started at Fri Jan 31 18:38:39 2014
+# sub01_1
+#
+# Started at Fri Jan 31 19:28:44 2014
+# sub01_run1
+#
+# Started at Fri Jan 31 19:29:12 2014
+# sub01_run1
+#
+# Started at Fri Jan 31 19:30:35 2014
+# sub01_run1
+#
+# Started at Fri Jan 31 19:32:53 2014
+# sub01_run1
+#
+# Started at Fri Jan 31 19:33:09 2014
+# sub01_run1
+#
+# Started at Fri Jan 31 19:33:40 2014
+# sub01_run1
+3151	tone0256.wav
+5202	tone1024.wav
+7152	tone0128.wav
+9152	tone8192.wav
+11251	tone0512.wav
+13202	tone4096.wav
+#
+# Started at Fri Jan 31 19:34:20 2014
+# sub01_run1
+2731	tone0256.wav
+4678	tone1024.wav
+6828	tone0128.wav
+8578	tone8192.wav
+10728	tone0512.wav
+12728	tone4096.wav
+14628	tone2048.wav
+#
+# Started at Fri Jan 31 19:39:24 2014
+# sub01_run1
+7880	tone0256.wav
+9880	tone1024.wav
+11880	tone0128.wav
+13880	tone8192.wav
+15930	tone0512.wav
+17930	tone4096.wav
+19980	tone2048.wav
+#
+# Started at Fri Jan 31 19:39:50 2014
+# sub01_run1
+3343	tone0256.wav
+5493	tone1024.wav
+7293	tone0128.wav
+9193	tone8192.wav
+11243	tone0512.wav
+13293	tone4096.wav
+15294	tone2048.wav
