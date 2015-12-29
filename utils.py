@@ -1,10 +1,10 @@
-# Time-stamp: <2014-01-31 19:28 christophe@pallier.org>
+# Various utility functions to run psychophics experiments with pygame
+# Time-stamp: <2015-12-29 08:44 christophe@pallier.org>
 
 # import parallel
 import pygame
 from pygame.constants import *
-import string
-import os, sys, glob
+import os, glob
 import random
 import time
 
@@ -13,7 +13,8 @@ import time
 #     b = p.getInSelected() # button 2
 #     c = p.getInPaperOut() # button 3
 #     d = p.getInBusy() # button 4
-    
+
+
 def Init(ResFile, FullScreen=True):
     #global p
     #p = parallel.Parallel()
@@ -22,11 +23,12 @@ def Init(ResFile, FullScreen=True):
     pygame.init()
 
     global screen
+
     W, H = 640, 480
     if FullScreen:
-            screen = pygame.display.set_mode((W, H), pygame.FULLSCREEN)
+        screen = pygame.display.set_mode((W, H), pygame.FULLSCREEN)
     else:
-            screen =  screen = pygame.display.set_mode((W, H))
+        screen = pygame.display.set_mode((W, H))
     pygame.mouse.set_visible(False)
 
     global font
@@ -42,55 +44,66 @@ def Init(ResFile, FullScreen=True):
 #    resf.write("# Directory = " + os.environ['PWD'] + "\n")
 
 
-
 def Quit():
     resf.close()
     pygame.quit()
     
-def Blit(surface,pos):
-    screen.blit(surface,pos)
+
+def Blit(surface, pos):
+    screen.blit(surface, pos)
+
 
 def UpdateScreen():
     pygame.display.update()
     pygame.display.flip()
 
+
 def Message(string):
-    msgsurf.fill((0,0,0))
-    msgsurf.blit(font.render(string, True, (255,0,0)), (0,0))
-    screen.blit(msgsurf,(0,0))
+    msgsurf.fill((0, 0, 0))
+    msgsurf.blit(font.render(string, True, (255, 0, 0)), (0, 0))
+    screen.blit(msgsurf, (0, 0))
     UpdateScreen()
 
+
 def ClearMessage():
-    msgsurf.fill((0,0,0))
-    screen.blit(msgsurf,(0,0))
+    msgsurf.fill((0, 0, 0))
+    screen.blit(msgsurf, (0, 0))
     UpdateScreen()
+
 
 def LoadSound(f):
     return pygame.mixer.Sound(f)
     
+
 def PlaySound(s):
     c = s.play()
     while c.get_busy():
         pygame.time.delay(50)
 
+
 def WaitForAnyKeyPress():
-        pygame.event.clear()
-        while not pygame.event.peek([KEYDOWN]): 
-            pass
+    pygame.event.clear()
+    while not pygame.event.peek([KEYDOWN]):
+        pass
                
+
 def CheckEscape():
     for ev in pygame.event.get():
         if ev.type == KEYDOWN and ev.key == K_ESCAPE: return 1
     return 0
     
+
 def Save(string):
-    resf.write(string+"\n")
+    resf.write(string + "\n")
+
 
 def Clock():
     return pygame.time.get_ticks()
 
+
 def Wait(millisec):
     pygame.time.wait(millisec)
+
 
 def Shuffle(list):
     random.shuffle(list)
